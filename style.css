@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' sans-serif;
+
+}
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: aqua;
+    height: 70px;
+    
+}
+.brand{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-left: 20px;
+    position: relative;
+    line-height: 65px;
+}
+ul{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+ul li{
+    display: inline-block;
+    line-height: 65px;
+    margin: 0 5px;
+}
+ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.image{
+    height: 300px;
+    width: 100%;
+}
+.section1{
+    padding: 65px;
+}
+.imageText{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    font-size: 40px;
+    color: blue;
+    background-color: yellowgreen;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.welcome{
+    height: 250px;
+    width: 100%;
+
+}
+.container{
+    padding-top: 65px;
+}
+span{
+    color: green;
+    font-size: 20px;
+    background-color: white;
+}
