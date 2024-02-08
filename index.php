@@ -50,6 +50,63 @@
         </div>
 
     </div>
+    <center>
+        <h1><span>Our services</span></h1>
+    </center>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+                <img class="services" src="./images/pdfimage.jpg" alt="">
+                <p>We provide you with a loan pd guide to allow you to have at least a glimpse on how our loans are
+                    being carried around, requirements and so many details. This will prepare you to know all the
+                    requirements and rate yourself before applying for our loans. </p>
+
+            </div>
+            <div class="col-md-4">
+
+                <img class="services" src="./images/service1.jpg" alt="">
+                <p>We also generate monthly reports for our steamed customers pertaining their loans via their email
+                    accounts theta have been registered through our system.</p>
+
+            </div>
+            <div class="col-md-4">
+
+                <img class="services" src="./images/realtime.jpg" alt="">
+                <p>Moreover, we also provide real time details about your loan. Join us today to enjoy the future of yur
+                    funds</p>
+
+            </div>
+        </div>
+    </div>
+    <center>
+        <h1>Subscribe to our Newsletter</h1>
+    </center>
+    <div align="center" class="subscribe">
+        <form action="post">
+            <div>
+                <label for="name" class="lab">Name</label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label for="name" class="lab">Email</label>
+                <input type="email" name="email">
+            </div>
+            <div>
+                <label for="name" class="lab">Phone</label>
+                <input type="tel" name="phone number">
+            </div>
+            <div>
+                <label for="message" class="lab">message</label>
+                <textarea name="message" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+
+                <input type="submit">
+            </div>
+
+        </form>
+    </div>
 
 </body>
 

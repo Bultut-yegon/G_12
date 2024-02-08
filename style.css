@@ -64,3 +64,13 @@ span{
     font-size: 20px;
     background-color: white;
 }
+.services{
+    width: 90%;
+    height: 200px;
+}
+.lab{
+    padding-right: 10px;
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+}
