@@ -27,7 +27,7 @@
         </ul>
     </nav>
     <div class="section1">
-        <label class="imageText"> hello, welcome to KCB-LMS</label>
+        <label class="imageText"> Hello, welcome to KCB-LTMS</label>
         <img class="image" src="./images/kcb.png" alt="">
 
     </div>
