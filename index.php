@@ -23,7 +23,7 @@
             <li> <a href="#">download pdf</a></li>
             <li> <a href="#">updates</a></li>
             <li> <a href="#">Track Loan</a></li>
-            <li> <a href="#" class="btn btn-success ">login</a></li>
+            <li> <a href="login.php" class="btn btn-success ">login</a></li>
         </ul>
     </nav>
     <div class="section1">
@@ -66,7 +66,7 @@
             <div class="col-md-4">
 
                 <img class="services" src="./images/service1.jpg" alt="">
-                <p>We also generate monthly reports for our steamed customers pertaining their loans via their email
+                <p>We also generate monthly reports for our esteemed customers pertaining their loans via their email
                     accounts theta have been registered through our system.</p>
 
             </div>
@@ -80,33 +80,36 @@
         </div>
     </div>
     <center>
-        <h1>Subscribe to our Newsletter</h1>
+        <h1 class="news">Subscribe to our Newsletter</h1>
     </center>
     <div align="center" class="subscribe">
         <form action="post">
-            <div>
+            <div class="sub">
                 <label for="name" class="lab">Name</label>
-                <input type="text" name="name">
+                <input class="input-area" type="text" name="name">
             </div>
-            <div>
+            <div class="sub">
                 <label for="name" class="lab">Email</label>
-                <input type="email" name="email">
+                <input class="input-area" type="email" name="email">
             </div>
-            <div>
+            <div class="sub">
                 <label for="name" class="lab">Phone</label>
-                <input type="tel" name="phone number">
+                <input class="input-area" type="tel" name="phone number">
             </div>
-            <div>
+            <div class="sub">
                 <label for="message" class="lab">message</label>
                 <textarea name="message" id="textarea" cols="30" rows="10"></textarea>
             </div>
-            <div>
+            <div class="sub">
 
-                <input type="submit">
+                <input class="btn btn-secondary" type="submit" value="submit" id="submit">
             </div>
 
         </form>
     </div>
+    <footer>
+        <h4 class="copy">All @copyright reserved by KCB</h4>
+    </footer>
 
 </body>
 

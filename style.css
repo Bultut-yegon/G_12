@@ -72,5 +72,83 @@ span{
     padding-right: 10px;
     display: inline-block;
     text-align: right;
+    width: 100px;
+    /*padding-bottom: 50px;*/
+}
+.input-area{
+ height: 40px;
+ width: 25%;
+ border: 2px solid blue;
+ border-radius: 20px;
+ /*padding-bottom: 0px;*/
+}
+.sub{
+    padding-top: 10px;
+}
+#textarea{
+    height: 110px;
+ width: 30%;
+ border: 2px solid blue;
+ border-radius: 20px;
+}
+#submit{
+    position: relative;
+    left: 5%;
+    width: 15%;
+}
+footer{
     width: 100%;
+    background-color: black;
+    height: 62px;
+}
+.copy{
+    color: white;
+    position: relative;
+    text-align: center;
+    top:20%; 
+}
+.news{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.loginForm{
+    padding-top: 200px;
+   
+}
+.labelLogin{
+    display: inline-block;
+    color: blue;
+    font-weight: 700px;
+    width: 100px;
+    font-size: 20px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+}
+#loginBtn{
+    position: absolute;
+    text-align: right;
+}
+.formlog{
+    background-color: black;
+    width: 400px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.titleLogin{
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+.bodyBack{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
