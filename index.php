@@ -19,11 +19,11 @@
     <nav>
         <h1 class="brand">KCB Loan Management System</h1>
         <ul>
-            <li> <a href="#">Home</a></li>
-            <li> <a href="#">download pdf</a></li>
-            <li> <a href="#">updates</a></li>
-            <li> <a href="#">Track Loan</a></li>
-            <li> <a href="login.php" class="btn btn-success ">login</a></li>
+            <li> <a href="#" id="blend">Home</a></li>
+            <li> <a href="#" id="blend">download pdf</a></li>
+            <li> <a href="#" id="blend">updates</a></li>
+            <li> <a href="Registration.php" class="btn btn-secondary" id="blend">Register</a></li>
+            <li> <a href="login.php" class="btn btn-success " id="blend">login</a></li>
         </ul>
     </nav>
     <div class="section1">
