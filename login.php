@@ -29,10 +29,6 @@
                     <input type="password" name="password">
                 </div>
 
-                <div>
-                    <label class="labelLogin" for="id number">ID Number</label>
-                    <input type="id number" name="idNumber">
-                </div>
                 <input class="btn btn-primary" type="submit" id="loginBtn" name="login" value="login">
             </form>
         </div>
