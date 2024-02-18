@@ -1,6 +1,9 @@
 <?php
 
 error_reporting(0);
+
+session_start();
+
 $host="localhost";
 $user="root";
 $password="";
@@ -13,26 +16,32 @@ if($dbData===false){
     die("connection error");
 
 }
-if($_SERVER["REQUEST_METHOD"]=="POST"){
-    $mail=$_POST['email'];
+if($_SERVER["REQUEST_METHOD"]=="POST" && isset($_POST['login']){
+    $mail=$_POST['Email'];
     $pass=$_POST['password'];
-    $name=$_POST['idNumber'];
+    
 
-    $sql="select * from Users where email='".$mail."' AND password='".$pass." '";
+    $sql="select * from user where Email='".$mail."' AND password='".$pass." '";
 
     $result=mysqli_query($dbData,$sql);
 
     $row=mysqli_fetch_array($result);
 
-    if($row["usertype"]==["customer"]){
+    if($row["usertype"]=="customer"){
+
+        $_SESSION['Email']=$mail;
         header("Location:customerHome.php");
     }
 
-    elseif($row["usertype"]==["LoanManager"]){
+    elseif($row["usertype"]=="LoanManager"){
         header("Location:LoanManagerHome.php");
     }
     else{
-        echo "email or password do not match";
+
+        
+        $mess="email or password do not match";
+        $_SESSION['loginMessage']=$mess;
+        header("Location:login.php");
     }
 }
 

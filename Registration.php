@@ -18,7 +18,7 @@
             <center class="titleReg">
                 Registration Form
             </center>
-            <form action="Registration.php" method="POST" class="formReg">
+            <form action="sign_check.php" method="POST" class="formReg">
                 <div>
                     <label for="name" class="labelReg">Name as per ID</label>
                     <input class="input-area" type="text" name="name">
@@ -47,6 +47,18 @@
                 <div>
                     <label for="street" class="labelReg">street Name</label>
                     <input class="input-area" type="text" name="street">
+                </div>
+                <div>
+                    <label for="email" class="labelReg">Email</label>
+                    <input class="input-area" type="email" name="email">
+                </div>
+                <div>
+                    <label for="password" class="labelReg">password</label>
+                    <input class="input-area" type="text" name="password">
+                </div>
+                <div>
+                    <label for="con-password" class="labelReg">Confirm password</label>
+                    <input class="input-area" type="text" name="con-password">
                 </div>
                 <input class="btn btn-secondary" type="submit" id="RegBtn" name="register" value="Register">
             </form>

@@ -17,11 +17,21 @@
         <div class="loginForm">
             <center class="titleLogin">
                 Login Form
+
+                <h6>
+                    <?php
+                    error_reporting(0);
+                    session_start();
+                    session_destroy();
+                    echo $_SESSION['loginMessage'];
+                     
+                    ?>
+                </h6>
             </center>
             <form action="login_checkup.php" method="POST" class="formlog">
                 <div>
                     <label class="labelLogin" for="email">Email</label>
-                    <input type="email" name="email">
+                    <input type="email" name="Email">
                 </div>
 
                 <div>

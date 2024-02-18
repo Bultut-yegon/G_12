@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+  if(!isset($_SESSION['Email'])){
+    header("location:login.php");
+  }
+
+?>
+
+
+
 <html lang="en">
 
 <head>
@@ -7,6 +18,7 @@
 </head>
 
 <body>
+    <a href="logout.php">Logout</a>
 
 </body>
 
