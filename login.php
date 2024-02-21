@@ -17,11 +17,21 @@
         <div class="loginForm">
             <center class="titleLogin">
                 Login Form
+
+                <h6>
+                    <?php
+                    error_reporting(0);
+                    session_start();
+                    session_destroy();
+                    echo $_SESSION['loginMessage'];
+                     
+                    ?>
+                </h6>
             </center>
             <form action="login_checkup.php" method="POST" class="formlog">
                 <div>
                     <label class="labelLogin" for="email">Email</label>
-                    <input type="email" name="email">
+                    <input type="email" name="Email">
                 </div>
 
                 <div>
@@ -29,10 +39,6 @@
                     <input type="password" name="password">
                 </div>
 
-                <div>
-                    <label class="labelLogin" for="id number">ID Number</label>
-                    <input type="id number" name="idNumber">
-                </div>
                 <input class="btn btn-primary" type="submit" id="loginBtn" name="login" value="login">
             </form>
         </div>

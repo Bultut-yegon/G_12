@@ -19,6 +19,14 @@ nav {
     position: relative;
     line-height: 65px;
 }
+#blend{
+    font-size: 13px;
+    font-weight: 300;
+    color: black;
+    margin-left: 20px;
+    position: relative;
+    line-height: 65px;
+}
 ul{
     position: relative;
     float: right;
@@ -151,4 +159,38 @@ footer{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
+}
+.bodyReg{
+   background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;  
+}
+.titleReg{
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+.formReg{
+    background-color: black;
+    width: 400px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.labelReg{
+    display: inline-block;
+    color: blue;
+    font-weight: 700px;
+    width: 100px;
+    font-size: 20px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.RegForm{
+    padding-top: 200px;
 }
